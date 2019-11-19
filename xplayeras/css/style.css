@@ -1,0 +1,117 @@
+
+*{
+    margin:0;
+}
+.Nombre{
+ color:rgb(71, 8, 107);
+ text-align: right;
+ width: auto;
+ padding: 5.2%;
+ font-family:cursive;
+ text-shadow: black;
+ 
+}
+li.right {
+    float: right;
+}
+li a.linkLogin {
+    background-color: #03A9F4;
+}
+li a.linkLogin:hover {
+    background-color: #4CAF50;
+}
+
+ 
+
+header{
+    height: 30%;
+    padding: 1%;
+    color: #242826;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    
+}
+div ul li{
+    display:inline;
+    text-align: center;
+    padding:10px;
+}
+div ul{
+    display:inline;
+    text-decoration: none;
+}
+
+div ul li a{
+    text-decoration: none;
+    color:rgb(240, 240, 240);
+}
+div ul li:hover{
+    background: #74cca2;
+    color:rgb(145, 156, 80);
+    text-decoration: none;
+  
+}
+#menu{
+    background:rgba(219, 219, 219, 0.767);
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding:20px;
+}
+#login
+{
+float:right;
+text-decoration: none;
+padding:20px;
+}
+
+.icono{
+    height:30%;
+    width: 30%;
+    float:left;
+    
+}
+.areaprincipal{
+    height:100%;
+    background:rgba(255, 255, 255, 0.678);
+    margin:20px;   
+}
+
+.piepagina{
+    background: #9c4fbba9;
+}
+#datos{
+ text-align:center;
+}
+footer{
+    background:rgba(131, 94, 38, 0.596);
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+body{
+    background-color:rgb(65, 146, 192);
+}
+.Login{
+    text-align: center;
+    padding: 50px;
+    background-color: rgba(65, 179, 61, 0.808);
+    width: 20%;
+    margin-top: 20px;
+    margin-left: 35%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+div a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+h1{
+    font-variant: small-caps;
+}
+.catalago
+{
+    width: 100%;
+}

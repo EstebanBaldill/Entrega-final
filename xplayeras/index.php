@@ -1,0 +1,94 @@
+﻿<?php
+session_start();
+if (isset($_SESSION['usuario'])){ 
+        $login_session=$_SESSION['usuario'];
+        $usuario="Cerrar secion";
+	} 
+	else{
+        $login_session="";
+        $usuario="Iniciar secion";
+	}
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Xplayeras.com</title>
+</head>
+<body>
+    
+    <header >
+       
+        <div class="icono">
+            <img src="./img/logo.png" >
+        </div>
+        <div class="Nombre" >
+            <h1>Lo Imaginas,Lo Hacemos xplayeras.com</h1>
+        </div>
+    </header>
+   
+
+    <div id="encabezado">
+        <div id="menu">
+            <ul>
+                <li><a href="./index.php" title="pagina principal" >°Inicio°</a></li>
+                <li><a href="./catalogo.php" title="catalogo"> °Playeras° </a></li>
+                <li><a href="./contactanos.php" title="catalogo"> °Contactanos° </a></li>
+                <li><a href="./nosotros.php" title="nosotros"> °Nosotros° </a></li>
+                <li class="right">						
+			       	<a class="linkLogin" href = "logiin.php" ><?php echo $usuario?></a>
+					</li>	
+					<li class="right"><p class="datosLogin"></li>
+            </ul>
+           
+
+        </div>
+        
+    </div>
+    <div class="Login"><p><table><tr><img src="./img/usuario.png" width="20%"></tr><?php echo $login_session; ?><tr></tr></table></p></div>
+    <div class="areaprincipal">
+        <h1>ELECCION DE PRODUCTO</h1>
+        <div id="datos">
+            <table >
+                <tr>
+                    <a href="./catalogo.php"><img src="./img/parejas1.jpg" width="70%"></a>
+                </tr>
+                <tr>
+                    <a href="./catalogo.php"><img src="./img/933799-MLM31216072962_062019-O.jpg" width="70%"></a>
+                    
+                </tr>
+                <tr>
+                   <a href="./catalogo.php"><img src="./img/brawl.jpg" width="70%"></a> 
+                </tr>
+                <tr>
+                   <a href="./catalogo.php"><img src="./img/nike.jpg" width="70%"></a> 
+                </tr>
+            </table>
+            <h1>EL MEJOR SITIO PARA ORDENAR PLAYERAS </h1>
+        </div>
+
+    </div>
+    <footer>
+            <div class="piepagina" >
+                <h3>Universidad Autónoma de Chiapas</h3>
+                <p>FREDDY ESTEBAN BALCAZAR PADILLA</p>
+                <p>&copy; Derechos reservados</p>
+                <p>Redes sociales</p>
+              
+            </div>
+        
+            <table>
+                <td><a href=""><img src="./img/facebook.png" width="30%"></a></td>
+                <td><a href=""><img src="./img/gmail.png" width="30%"></a></td>
+                <td><a href=""><img src="./img/twitter.png" width="10%"></a></td>
+                <td><a href=""><img src="./img/ins.png" width="30%"></a></td>
+            </table>
+            
+    </footer>
+  
+    
+</body>
+</html>

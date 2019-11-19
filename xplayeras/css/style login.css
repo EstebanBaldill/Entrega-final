@@ -1,0 +1,32 @@
+*{
+    margin:0;
+}
+table
+{
+    border: 2px solid #353a46;
+    background-color: rgba(187, 37, 187, 0.473);
+}
+body{
+    background:pink;
+}
+imput[type=text], imput[type=password]
+{
+    width:100%;
+    padding: 8px 20px;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+}
+label{
+    font-size:14px;
+    font-weight:bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+imput[type=submit]
+{
+    background-color: powderblue;
+    color: white;
+    padding: 8px 10px;
+    margin:8px 0px;
+    cursor: pointer;
+    width: 40%;
+}
